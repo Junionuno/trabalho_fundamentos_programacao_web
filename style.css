@@ -1,0 +1,77 @@
+body {
+    color: #4d3339; /* Define a cor padrão do texto. */
+    font-family: Arial, sans-serif; /* Define a fonte do texto. */
+    margin: 0; /* Remove as margens padrão. */
+    padding: 0; /* Remove o preenchimento padrão. */
+    background-color: #d1c5a5; /* Define a cor de fundo da página. */
+    justify-content: center; /* Centraliza horizontalmente (para elementos flex). */
+    align-items: center; /* Centraliza verticalmente (para elementos flex). */
+    height: 100vh; /* Define a altura como 100% da altura da viewport. */
+}
+
+header {
+    background-color: #a38a5f; /* Define a cor de fundo do cabeçalho. */
+    padding: 10px; /* Adiciona espaço interno ao redor do conteúdo. */
+    text-align: center; /* Centraliza o conteúdo do cabeçalho. */
+    border-radius: 10px; /* Adiciona bordas arredondadas ao cabeçalho. */
+    margin: 30px; /* Adiciona espaço externo ao redor do cabeçalho. */
+}
+
+header h1 {
+    font-size: 35px; /* Define o tamanho da fonte do título no cabeçalho. */
+}
+
+p {
+    text-align: center; /* Centraliza o texto dos parágrafos. */
+    padding: 60px; /* Adiciona espaço interno ao redor do texto. */
+    font-size: 25px; /* Define o tamanho da fonte nos parágrafos. */
+}
+
+nav ul {
+    font-size: 20px; /* Define o tamanho da fonte dos itens do menu. */
+    list-style: none; /* Remove os marcadores da lista. */
+    display: flex; /* Aplica layout flexível aos itens do menu. */
+    justify-content: center; /* Centraliza os itens do menu horizontalmente. */
+}
+
+nav ul li {
+    padding: 10px; /* Adiciona espaço interno ao redor dos itens do menu. */
+}
+
+a {
+    text-decoration: none; /* Remove o sublinhado dos links. */
+    color: #4d3339; /* Define a cor padrão dos links. */
+    transition-duration: 1s; /* Define a duração da transição ao interagir. */
+}
+
+a:hover {
+    color: #793a57; /* Altera a cor do link ao passar o mouse. */
+    font-size: 25px; /* Aumenta o tamanho da fonte ao passar o mouse. */
+    transition-duration: 1s; /* Define uma transição suave. */
+}
+
+form {
+    background-color: #a38a5f; /* Define a cor de fundo do formulário. */
+    padding: 20px; /* Adiciona espaço interno ao redor do conteúdo. */
+    text-align: center; /* Centraliza o conteúdo do formulário. */
+    border-radius: 20px; /* Adiciona bordas arredondadas ao formulário. */
+    width: 300px; /* Define a largura fixa do formulário. */
+    margin: 0 auto; /* Centraliza o formulário horizontalmente. */
+}
+
+form input {
+    border: 2px solid #8c873e; /* Define a borda dos campos de entrada. */
+    border-radius: 5px; /* Adiciona bordas arredondadas aos campos de entrada. */
+    font-size: 14px; /* Define o tamanho da fonte nos campos de entrada. */
+    width: 100%; /* Faz os campos ocuparem toda a largura do formulário. */
+    margin-bottom: 10px; /* Adiciona espaço entre os campos de entrada. */
+}
+
+form button {
+    background-color: #d1c5a5; /* Define a cor de fundo do botão. */
+    border: 2px solid #8c873e; /* Define a borda do botão. */
+    color: #4d3339; /* Define a cor do texto do botão. */
+    font-size: 14px; /* Define o tamanho da fonte no botão. */
+    border-radius: 10px; /* Adiciona bordas arredondadas ao botão. */
+    width: 100%; /* Faz o botão ocupar toda a largura do formulário. */
+}
